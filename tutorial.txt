@@ -225,3 +225,38 @@ The HTML <q> tag defines a short quotation. Browsers normally insert quotation m
 Example
 <p>One German magazine included him in a list of enemies of the German regime with the phrase, <q>not yet hanged</q>, offering a $5,000 bounty on his head.</p>
 
+
+HTML <abbr> for Abbreviations
+
+The HTML <abbr> tag defines an abbreviations or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".
+
+Marking abbreviations can give useful information to borwers, translation systems and search-engines.
+
+Tip: Use the global title attribute to show the description for the abbreviation/acronym when you mouse over the element.
+
+Example
+<p>The <abbr title="World Healt Organization">WHO</abbr> was founded in 1948.</p>
+
+
+HTML <address> for Contact information
+
+The HTML <address> tag defines the contact information for author of a document or an article. The contact information can be an email address, URL, physical adrdress, phone number, social media handle, etc. The text in the <address> element usually renders in italic, ans browsers will always add a line break before and after the <address> element.
+
+Example
+<p>Robert Alburqueque <address>16611 Hartway Street, Beresford, South Dakota</address>.</p>
+
+
+HTML <cite> for Work Title
+
+The HTML <cite> tag defines the title of a creative work (e.g.e a book, a poem, a song, a movie, a painting, a sculpture, etc.). The text in the <cite> element usually renders in italic.
+
+Example
+<p><cite>The Scream</cite> by Edvard Much. Painted in 1893.</p>
+
+
+HTML <bdo> for Bi-Diretional Overrride
+
+BDO stands for Bi-Diretional Overrride. The HTML <dbo> tag is used to overrride the current text direction:
+
+Example
+<bdo dir="rtl">This text will be written from right to left</bdo>
