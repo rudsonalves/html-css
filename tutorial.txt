@@ -260,3 +260,47 @@ BDO stands for Bi-Diretional Overrride. The HTML <dbo> tag is used to overrride 
 
 Example
 <bdo dir="rtl">This text will be written from right to left</bdo>
+
+
+HTML Comments
+
+HTML comments ar not displayed in the browser, but they can help document your HTML source code.
+
+You can add comments to you HTML source by using the following syntax:
+
+<!-- Write your comments here -->
+
+Notice that there is an exclamation point (!) in the start tag, but not in the end tag.
+
+
+HTML Colors
+
+HTML colors are specifield with predefined color names, or with RGM, HEX, HSL, RGBA or HSLA values.
+
+Colors names: https://www.w3schools.com/colors/colors_names.asp
+
+
+Backgourd Color: background-color
+You can set the background color for HTML elements by wordkey style:
+
+Example
+<h1 style="background-color: Tomato;">Hello</h1>
+<p style="background-color: Violet;">Hi my name is Bob</p>
+
+
+Text Color: color
+You can set text color by wordkey color:
+
+Example
+<h1 style="color: Tomato;">Hello</h1>
+<p style="color: Violet;">Hi my name is Bob</p>
+
+
+Boder Color
+
+You can set the color border:
+
+Example
+<h1 style="border: 4px solid Tomato;">Hello World</h1>
+<h1 style="border: 4px solid Red;">Hello World</h1>
+<h1 style="border: 4px solid Orange;">Hello World</h1>
