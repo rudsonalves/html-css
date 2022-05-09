@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(230, 224, 199);
+}
+
+h1 {
+    color: blue;
+    border: 4px solid brown;
+}
+
+p {
+    color: red;
+    border: 2px solid saddlebrown;
+    margin: 50px;
+}
