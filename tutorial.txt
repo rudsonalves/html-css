@@ -55,6 +55,41 @@ Example
  <img src="albert.jpg" alt="Sorry, Albert Einstein is gone!">
 
 
+Image Size - Width and Height
+
+You can use style attributes to specify the width and height of a image.
+
+
+Example
+<img src="img.pmg alft=Girl in a jacket" style="width:500px; height:600px;">
+
+
+Image Floating
+
+Use the CSS float property to let the image float to the right or to the left of a text:
+
+Example
+<p><img src="smiley.gif" alt=";D" style="float:right;width:42px;height:42px;"> The image will float to the right of the text.</p>
+
+<p<<img src="smiley.gif" alt=";D" style="float:left;width:42px;height:42px;"> The image will float to the left of the text.</p>
+
+
+Image Maps
+
+The HTML <map> teg defines an image map. An image map is an image with clickable areas. The areas are defined with on or more <area> tags.
+
+Example
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+<map name="workmap>
+    <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.html">
+    <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.html">
+    <area shape="circle" coords="337,300,44" alt="Coffe" href="coffe.html">
+</map>
+
+Use the https://www.image-map.net/ to generate map code.
+
+
  The style Attribute
 
  The style attribute is used to add styles to an element, such as color, font, size, and more.
@@ -304,3 +339,49 @@ Example
 <h1 style="border: 4px solid Tomato;">Hello World</h1>
 <h1 style="border: 4px solid Red;">Hello World</h1>
 <h1 style="border: 4px solid Orange;">Hello World</h1>
+
+
+HTML Links
+
+HTML links are hyperlinks. You can click on a link and jump to another document. When you move the mouse over a link, the mouse arrow will into a little hand.
+
+The HTML <a> tag defines a hyperlink.
+
+<a href="url">Link text</a>
+
+The most important attribute of the <a> element is the href attribute, which indicates the link's destination.
+
+By default, links appear as follows in all browsers:
+
+- An unvisible link is underlined and blue.
+- A visible link is underlined and purper;
+- An active link is underlined and red.
+
+HTML Links - The target Attribute
+
+Bt default, the linked page will be displayed in the current browser sindow, To change this, you must specify another target for the link.
+
+The target attribute specifies where to open the linked document.
+
+- _self - Default. Opens the document in the some window/tab as it was clicked
+- _blank - Opens the document in a new window or tab
+- _parent - Opens the document in the parent frame
+- _top -  Opens the document in the full body of the window
+
+
+Example
+<a href="https://jrblog.com.br/series/golang/" target="_blank">JRBlog</a>
+
+
+Create Bookmarks
+
+Bookmarks can be useful if a web page os very long. To create a bookmark - first create the bookmark, then add a link to it. When the link is clicked, the page will scroll down or up to the location with the bookmark.
+
+Example
+
+<h2 id="C4">Chapter 4</h2>
+
+Then, add a link to the bookmark, from within the same page:
+
+<a href="#C4">Jump ro Chapter 4</a>
+

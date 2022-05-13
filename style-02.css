@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(230, 224, 199);
+    background-color: rgb(247, 244, 233);
 }
 
 h1 {
@@ -11,4 +11,28 @@ p {
     color: red;
     border: 2px solid saddlebrown;
     margin: 50px;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited{
+    color: orangered;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active{
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
 }
